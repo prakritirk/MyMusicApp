@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_gradient"
+    tools:context="com.example.android.mymusicapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/song_image_view"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/song_image_view"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_padding">
+
+        <TextView
+            android:id="@+id/song_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/song_artist_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/song_play_view"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_play_24dp" />
+
+</RelativeLayout>
+

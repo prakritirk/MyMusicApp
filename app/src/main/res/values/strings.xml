@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyMusicApp</string>
+    <string name="recommended">Recommended for you</string>
+    <string name="new_release">New Releases</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="home"> Home</string>
+    <string name="search">Search</string>
+    <string name="library">Library</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genre</string>
+    <string name="search_result">Past Search Results</string>
+    <string name="hint">Type Here</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="category_artists">Artists</string>
+    <string name="category_genre">Genre</string>
+    <string name="category_station">Stations</string>
+    <string name="category_bollywood">Bollywood Hits</string>
+    <string name="bollywood2">Tum se hi </string>
+    <string name="category_dance">Dance Hits</string>
+    <string name="category_us">US Top Charts</string>
+    <string name="artist_1">Arijit Singh</string>
+    <string name="artist1_song_1">Tum hi ho</string>
+    <string name="artist1_song_2">Tere bin</string>
+    <string name="artist_2">Ed Sheeran</string>
+    <string name="artist2_song_1">Tum hi ho</string>
+    <string name="artist2_song_2">Tere bin</string>
+    <string name="genre_1">Pop</string>
+    <string name="genre1_song_1">New rules</string>
+    <string name="genre1_song1_artist">Dua Lipa</string>
+    <string name="genre1_song_2">Cheap Thrills</string>
+    <string name="genre1_song2_artist">Sia</string>
+    <string name="genre_2">Rock</string>
+    <string name="genre2_song_1">Thunder</string>
+    <string name="genre2_song1_artist">Imagine Dragons</string>
+    <string name="genre2_song_2">Believer</string>
+    <string name="genre2_song2_artist">Imagine Dragons</string>
+
+</resources>
